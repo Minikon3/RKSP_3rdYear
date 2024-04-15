@@ -1,0 +1,22 @@
+/* ListPage.css */
+.content {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    color: red;
+  }
+  
+  .content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,33 @@
+/* HomePage.css */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  .image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .usualtext {
+    font-size: 24px;
+    color: aqua;
+  }
+  
+  .containerfortext {
+    border-radius: 20px;
+    background: rgb(85, 19, 19);
+    width: 80%;
+  }
+  

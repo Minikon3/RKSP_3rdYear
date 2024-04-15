@@ -1,0 +1,45 @@
+body {
+    background-color: #484b53; /* серый фон */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header,
+  nav {
+    background-color: #007bff; /* синий цвет */
+    color: #fff; /* белый текст */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .div{
+    text-align: center;
+  }

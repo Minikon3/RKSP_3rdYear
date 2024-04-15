@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Общие стили для всего контента */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3; /* серый фон */
+    color: #333; /* черный текст */
+    display: flex;
+    justify-content: center; /* центрируем по горизонтали */
+    align-items: center; /* центрируем по вертикали */
+    height: 100vh; /* высота равная высоте видимой области окна браузера */
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center; /* выравниваем текст по центру */
+  }
+  
+  /* Стили для заголовков */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff6600; /* оранжевый цвет */
+  }
+  
+  /* Стили для кнопок */
+  button {
+    background-color: #ff6600; /* оранжевая кнопка */
+    color: #fff; /* белый текст на кнопке */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc5500; /* темно-оранжевый цвет при наведении на кнопку */
+  }
+  
+/* Стили для навигационного меню */
+.nav-menu {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    display: inline; /* Элементы списка идут в одну линию */
+    margin-right: 20px; /* Отступ между элементами */
+  }
+  
+  .nav-menu a {
+    color: black; /* Белый текст ссылок */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+  }
+  
+  .nav-menu a:hover {
+    color: #ff6600; /* Оранжевый текст ссылок при наведении */
+  }
+  
